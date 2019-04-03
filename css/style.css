@@ -1,0 +1,41 @@
+﻿html{
+  overflow: hidden;
+}
+body{
+  background: #090E29; 
+  overflow: none;
+}
+#space{
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+}
+#spaceship{
+  position: absolute; 
+  top: 40%; 
+  left:40%;
+}
+.dashboard{
+  position: absolute;
+  top: 30px;
+  left: 50px;  
+  color: #ffe500;
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;  
+}
+.speed, #kmh, .coins{
+  margin-top: 10px;
+  color: #00ff00;
+}
+.coins {
+  color: #ff00ff;
+}
+.coin{  
+  position: absolute;
+  top: 33px;
+  left: 250px;
+  background: url(https://image000.tutpad.com/tut/0/53/32-done.gif) no-repeat -38px -9px;
+  background-size: 100px;
+  width: 24px;
+  height: 24px;
+}
